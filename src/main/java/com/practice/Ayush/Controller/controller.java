@@ -46,4 +46,11 @@ public class controller {
     System.out.println("Updation Successful");
     }
 
+    @GetMapping("/admin")
+    public String getadmin()
+    {
+        return ("<h1>Welcome admin</h1>");
+    }
+
+
 }
